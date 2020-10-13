@@ -22,4 +22,8 @@ public class Rectangle {
     public void setB(double b) {
         this.b = b;
     }
+
+    public double rectPerimeter() {
+        return a * b;
+    }
 }

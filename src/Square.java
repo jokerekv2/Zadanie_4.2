@@ -1,3 +1,5 @@
+import static java.lang.Math.pow;
+
 public class Square {
     private double a;
 
@@ -11,5 +13,9 @@ public class Square {
 
     public void setA(double a) {
         this.a = a;
+    }
+
+    public double squareArea(){
+        return pow(a, 2);
     }
 }

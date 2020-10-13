@@ -32,4 +32,8 @@ public class Triangle {
     public void setC(double c) {
         this.c = c;
     }
+
+    public double trianglePerimeter() {
+        return a + b + c;
+    }
 }
