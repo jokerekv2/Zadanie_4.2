@@ -1,9 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        ShapeCalculator calculator = new ShapeCalculator();
-        System.out.println(calculator.circleArea(new Circle(5.0)));
-        System.out.println(calculator.rectPerimeter(new Rectangle(2.3, 4.0)));
-        System.out.println(calculator.squareArea(new Square(3.0)));
-        System.out.println(calculator.trianglePerimeter(new Triangle(3.1, 5.0, 9.0)));
+        Square square = new Square(5.0);
+        double squareArea = square.squareArea();
+        Circle circle = new Circle(3.3);
+        double circleArea = circle.circleArea();
+        Triangle triangle = new Triangle(3.1, 5.0, 9.0);
+        double trianglePerimeter = triangle.trianglePerimeter();
+        Rectangle rectangle = new Rectangle(3.5, 6.0);
+        double rectanglePerimeter = rectangle.rectPerimeter();
+
+        System.out.println(squareArea + "\n" + circleArea + "\n" + trianglePerimeter + "\n" + rectanglePerimeter);
+
     }
 }
