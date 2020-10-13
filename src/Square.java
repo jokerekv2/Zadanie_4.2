@@ -15,7 +15,7 @@ public class Square {
         this.a = a;
     }
 
-    double squareArea(){
+    public double squareArea(){
         return pow(a, 2);
     }
 }

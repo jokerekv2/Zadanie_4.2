@@ -33,7 +33,7 @@ public class Triangle {
         this.c = c;
     }
 
-    double trianglePerimeter() {
+    public double trianglePerimeter() {
         return a + b + c;
     }
 }

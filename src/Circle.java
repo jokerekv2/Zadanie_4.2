@@ -16,7 +16,7 @@ public class Circle {
         this.r = r;
     }
 
-    double circleArea() {
+    public double circleArea() {
         return PI * pow(r, 2);
     }
 }

@@ -23,7 +23,7 @@ public class Rectangle {
         this.b = b;
     }
 
-    double rectPerimeter() {
+    public double rectPerimeter() {
         return a * b;
     }
 }
